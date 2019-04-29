@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 29, 2019 at 03:40 PM
+-- Generation Time: Apr 29, 2019 at 11:06 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.3
 
@@ -1076,12 +1076,21 @@ INSERT INTO `llx_commande` (`rowid`, `ref`, `entity`, `ref_ext`, `ref_int`, `ref
 (2, 'CO1904-0001', 1, NULL, NULL, NULL, 3, NULL, '2019-04-26 19:42:02', '2019-04-26 01:23:53', '2019-04-26 01:27:52', '2019-04-26 21:41:52', '2019-04-25', 2, NULL, 2, 1, NULL, 3, 0.00000000, 0, NULL, 0, 3.84000000, 0.00000000, 0.00000000, 32.00000000, 35.84000000, '', '', 'einstein', 'commande/CO1904-0001/CO1904-0001.pdf', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 32.00000000, 3.84000000, 35.84000000),
 (3, 'CO1904-0003', 1, NULL, NULL, NULL, 2, NULL, '2019-04-26 21:13:15', '2019-04-26 22:49:56', '2019-04-26 23:13:12', NULL, '2019-04-26', 2, NULL, 1, NULL, NULL, 1, 0.00000000, 0, NULL, 0, 19.32000000, 0.00000000, 0.00000000, 161.00000000, 180.32000000, '', '', 'einstein', 'commande/CO1904-0003/CO1904-0003.pdf', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 161.00000000, 19.32000000, 180.32000000),
 (4, 'CO1904-0002', 1, NULL, NULL, 'rrfrrfr', 4, NULL, '2019-04-26 21:22:40', '2019-04-26 23:08:06', '2019-04-26 23:12:33', NULL, '2019-04-26', 2, NULL, 1, NULL, NULL, -1, 0.00000000, 0, NULL, 0, 3.84000000, 0.00000000, 0.00000000, 32.00000000, 35.84000000, '', '', 'einstein', 'commande/CO1904-0002/CO1904-0002.pdf', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 32.00000000, 3.84000000, 35.84000000),
-(5, 'CO1904-0004', 1, NULL, NULL, NULL, 2, NULL, '2019-04-26 21:19:21', '2019-04-26 23:18:59', '2019-04-26 23:19:16', '2019-04-26 23:19:21', '2019-04-26', 2, NULL, 2, 2, NULL, 3, 0.00000000, 0, NULL, 0, 3.72000000, 0.00000000, 0.00000000, 31.04000000, 34.76000000, '', '', 'einstein', 'commande/CO1904-0004/CO1904-0004.pdf', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 31.04000000, 3.72000000, 34.76000000),
+(5, 'CO1904-0004', 1, NULL, NULL, NULL, 2, NULL, '2019-04-29 19:25:21', '2019-04-26 23:18:59', '2019-04-26 23:19:16', '2019-04-26 23:19:21', '2019-04-26', 2, NULL, 2, 2, NULL, 0, 0.00000000, 0, NULL, 0, 3.72000000, 0.00000000, 0.00000000, 31.04000000, 34.76000000, '', '', 'einstein', 'commande/CO1904-0004/CO1904-0004.pdf', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 31.04000000, 3.72000000, 34.76000000),
 (6, '(PROV6)', 1, NULL, NULL, NULL, 2, NULL, '2019-04-26 22:44:47', '2019-04-26 23:19:48', NULL, NULL, '2019-04-26', 2, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 10.68000000, 0.00000000, 0.00000000, 89.00000000, 99.68000000, '', '', 'einstein', 'commande/(PROV6)/(PROV6).pdf', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 89.00000000, 10.68000000, 99.68000000),
 (7, 'CO1904-0005', 1, NULL, NULL, NULL, 2, NULL, '2019-04-26 22:08:26', '2019-04-26 23:20:21', '2019-04-26 23:20:30', NULL, '2019-04-26', 2, NULL, 2, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 8.28000000, 0.00000000, 0.00000000, 69.00000000, 77.28000000, '', '', 'einstein', 'commande/CO1904-0005/CO1904-0005.pdf', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 69.00000000, 8.28000000, 77.28000000),
 (8, 'CO1904-0006', 1, NULL, NULL, NULL, 2, NULL, '2019-04-26 21:20:55', '2019-04-26 23:20:39', '2019-04-26 23:20:49', NULL, '2019-04-26', 2, NULL, 2, NULL, NULL, -1, 0.00000000, 0, NULL, 0, 3.84000000, 0.00000000, 0.00000000, 32.00000000, 35.84000000, '', '', 'einstein', 'commande/CO1904-0006/CO1904-0006.pdf', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 32.00000000, 3.84000000, 35.84000000),
 (9, '(PROV9)', 1, NULL, NULL, NULL, 2, NULL, '2019-04-26 21:43:24', '2019-04-26 23:41:38', NULL, NULL, '2019-04-26', 2, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 11.52000000, 0.00000000, 0.00000000, 96.00000000, 107.52000000, '', '', 'einstein', 'commande/(PROV9)/(PROV9).pdf', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 96.00000000, 11.52000000, 107.52000000),
-(10, '(PROV10)', 1, NULL, NULL, NULL, 3, NULL, '2019-04-29 13:27:52', '2019-04-29 15:27:29', NULL, NULL, '2019-04-29', 1, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 3.00000000, 0.00000000, 0.00000000, 25.00000000, 28.00000000, '', '', 'einstein', 'commande/(PROV10)/(PROV10).pdf', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 25.00000000, 3.00000000, 28.00000000);
+(10, 'CO1904-0007', 1, NULL, NULL, NULL, 3, NULL, '2019-04-29 17:16:42', '2019-04-29 15:27:29', '2019-04-29 17:52:37', NULL, '2019-04-29', 1, NULL, 1, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 3.00000000, 0.00000000, 0.00000000, 25.00000000, 28.00000000, '', '', 'einstein', 'commande/CO1904-0007/CO1904-0007.pdf', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 25.00000000, 3.00000000, 28.00000000),
+(11, '(PROV11)', 1, NULL, NULL, NULL, 4, NULL, '2019-04-29 14:21:33', '2019-04-29 16:21:23', NULL, NULL, '2019-04-29', 1, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 3.00000000, 0.00000000, 0.00000000, 25.00000000, 28.00000000, '', '', 'einstein', 'commande/(PROV11)/(PROV11).pdf', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 25.00000000, 3.00000000, 28.00000000),
+(12, '(PROV12)', 1, NULL, NULL, NULL, 2, NULL, '2019-04-29 15:28:47', '2019-04-29 17:27:39', NULL, NULL, '2019-04-29', 1, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 90.00000000, 0.00000000, 0.00000000, 750.00000000, 840.00000000, '', '', 'einstein', 'commande/(PROV12)/(PROV12).pdf', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 750.00000000, 90.00000000, 840.00000000),
+(13, '(PROV13)', 1, NULL, NULL, NULL, 4, NULL, '2019-04-29 15:43:58', '2019-04-29 17:43:58', NULL, NULL, '2019-04-29', 1, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 0.00000000, 0.00000000, 0.00000000, 0.00000000, 0.00000000, '', '', 'einstein', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 0.00000000, 0.00000000, 0.00000000),
+(14, '(PROV14)', 1, NULL, NULL, NULL, 4, NULL, '2019-04-29 15:45:52', '2019-04-29 17:45:02', NULL, NULL, '2019-04-29', 1, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 9.00000000, 0.00000000, 0.00000000, 75.00000000, 84.00000000, '', '', 'einstein', 'commande/(PROV14)/(PROV14).pdf', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 75.00000000, 9.00000000, 84.00000000),
+(15, '(PROV15)', 1, NULL, NULL, NULL, 1, NULL, '2019-04-29 15:53:08', '2019-04-29 17:53:08', NULL, NULL, '2019-04-29', 1, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 0.00000000, 0.00000000, 0.00000000, 0.00000000, 0.00000000, '', '', 'einstein', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 0.00000000, 0.00000000, 0.00000000),
+(16, '(PROV16)', 1, NULL, NULL, NULL, 3, NULL, '2019-04-29 15:57:38', '2019-04-29 17:57:38', NULL, NULL, '2019-04-29', 2, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 0.00000000, 0.00000000, 0.00000000, 0.00000000, 0.00000000, '', '', 'einstein', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 0.00000000, 0.00000000, 0.00000000),
+(17, '(PROV17)', 1, NULL, NULL, NULL, 4, NULL, '2019-04-29 15:58:34', '2019-04-29 17:58:34', NULL, NULL, '2019-04-29', 2, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 0.00000000, 0.00000000, 0.00000000, 0.00000000, 0.00000000, '', '', 'einstein', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 0.00000000, 0.00000000, 0.00000000),
+(18, '(PROV18)', 1, NULL, NULL, NULL, 4, NULL, '2019-04-29 16:10:10', '2019-04-29 18:10:10', NULL, NULL, '2019-04-29', 2, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 0.00000000, 0.00000000, 0.00000000, 0.00000000, 0.00000000, '', '', 'einstein', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 0.00000000, 0.00000000, 0.00000000),
+(19, '(PROV19)', 1, NULL, NULL, NULL, 4, NULL, '2019-04-29 16:13:19', '2019-04-29 18:13:19', NULL, NULL, '2019-04-29', 2, NULL, NULL, NULL, NULL, 0, 0.00000000, 0, NULL, 0, 0.00000000, 0.00000000, 0.00000000, 0.00000000, 0.00000000, '', '', 'einstein', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', NULL, NULL, 0, 'USD', 1.00000000, 0.00000000, 0.00000000, 0.00000000);
 
 -- --------------------------------------------------------
 
@@ -1159,7 +1168,10 @@ INSERT INTO `llx_commandedet` (`rowid`, `fk_commande`, `fk_parent_line`, `fk_pro
 (25, 7, NULL, 1, NULL, '222222', 'IVA-12', 12.000, 0.000, '1', 0.000, '0', 1, 0, 0, NULL, 32, 32.00000000, 32.00000000, 3.84000000, 0.00000000, 0.00000000, 35.84000000, 0, NULL, NULL, 0, 0.00000000, NULL, 0, 3, NULL, NULL, NULL, NULL, 'USD', 32.00000000, 32.00000000, 3.84000000, 35.84000000),
 (29, 7, NULL, NULL, NULL, 'rrrrrrr', 'IVA-12', 12.000, 0.000, '1', 0.000, '0', 1, 0, 0, NULL, 5, 5.00000000, 5.00000000, 0.60000000, 0.00000000, 0.00000000, 5.60000000, 0, NULL, NULL, 0, 0.00000000, NULL, 0, 1, NULL, NULL, NULL, NULL, 'USD', 5.00000000, 5.00000000, 0.60000000, 5.60000000),
 (30, 6, NULL, 2, NULL, '', 'IVA-12', 12.000, 0.000, '1', 0.000, '0', 1, 0, 0, NULL, 25, 25.00000000, 25.00000000, 3.00000000, 0.00000000, 0.00000000, 28.00000000, 0, NULL, NULL, 0, 0.00000000, NULL, 0, 3, NULL, NULL, NULL, NULL, 'USD', 25.00000000, 25.00000000, 3.00000000, 28.00000000),
-(31, 10, NULL, 2, NULL, '', 'IVA-12', 12.000, 0.000, '1', 0.000, '0', 1, 0, 0, NULL, 25, 25.00000000, 25.00000000, 3.00000000, 0.00000000, 0.00000000, 28.00000000, 0, NULL, NULL, 0, 0.00000000, NULL, 0, 1, NULL, NULL, NULL, NULL, 'USD', 25.00000000, 25.00000000, 3.00000000, 28.00000000);
+(31, 10, NULL, 2, NULL, '', 'IVA-12', 12.000, 0.000, '1', 0.000, '0', 1, 0, 0, NULL, 25, 25.00000000, 25.00000000, 3.00000000, 0.00000000, 0.00000000, 28.00000000, 0, NULL, NULL, 0, 0.00000000, NULL, 0, 1, NULL, NULL, NULL, NULL, 'USD', 25.00000000, 25.00000000, 3.00000000, 28.00000000),
+(32, 11, NULL, 2, NULL, '', 'IVA-12', 12.000, 0.000, '1', 0.000, '0', 1, 0, 0, NULL, 25, 25.00000000, 25.00000000, 3.00000000, 0.00000000, 0.00000000, 28.00000000, 0, NULL, NULL, 0, 0.00000000, NULL, 0, 1, NULL, NULL, NULL, NULL, 'USD', 25.00000000, 25.00000000, 3.00000000, 28.00000000),
+(33, 12, NULL, 2, NULL, '', 'IVA-12', 12.000, 0.000, '1', 0.000, '0', 30, 0, 0, NULL, 25, 25.00000000, 750.00000000, 90.00000000, 0.00000000, 0.00000000, 840.00000000, 0, NULL, NULL, 0, 0.00000000, NULL, 0, 1, NULL, NULL, NULL, NULL, 'USD', 25.00000000, 750.00000000, 90.00000000, 840.00000000),
+(34, 14, NULL, 2, NULL, '', 'IVA-12', 12.000, 0.000, '1', 0.000, '0', 3, 0, 0, NULL, 25, 25.00000000, 75.00000000, 9.00000000, 0.00000000, 0.00000000, 84.00000000, 0, NULL, NULL, 0, 0.00000000, NULL, 0, 1, NULL, NULL, NULL, NULL, 'USD', 25.00000000, 75.00000000, 9.00000000, 84.00000000);
 
 -- --------------------------------------------------------
 
@@ -1484,7 +1496,6 @@ INSERT INTO `llx_const` (`rowid`, `name`, `entity`, `value`, `type`, `visible`, 
 (818, 'CONTRACT_ADDON_PDF', 1, 'strato', 'chaine', 0, 'Name of PDF model of contract', '2019-04-26 21:24:19'),
 (819, 'MAIN_MODULE_SOCIETE', 1, '1', 'string', 0, '{\"authorid\":\"1\",\"ip\":\"127.0.0.1\"}', '2019-04-26 21:24:20'),
 (820, 'USER_PASSWORD_PATTERN', 1, '8;1;1;1;3;1', 'chaine', 0, '', '2019-04-26 21:25:55'),
-(821, 'MAIN_SECURITY_ENABLECAPTCHA', 1, '1', 'chaine', 0, '', '2019-04-26 21:27:30'),
 (822, 'MAIN_SESSION_TIMEOUT', 1, '1440', 'chaine', 0, '', '2019-04-26 21:27:34'),
 (823, 'MAIN_MODULE_COMMANDE', 1, '1', 'string', 0, '{\"authorid\":\"1\",\"ip\":\"127.0.0.1\"}', '2019-04-26 21:38:56'),
 (849, 'MAIN_LANG_DEFAULT', 1, 'es_EC', 'chaine', 0, '', '2019-04-26 21:58:40'),
@@ -5873,14 +5884,18 @@ INSERT INTO `llx_ecm_files` (`rowid`, `ref`, `label`, `share`, `entity`, `filepa
 (6, 'dcdad20caefa98ea5be4f31ac1340209', '7b5d641a6098a148b210e476ed97b738', NULL, 1, 'commande/CO1904-0002', 'CO1904-0002.pdf', 'commande', 4, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-26 23:12:33', '2019-04-27 04:12:33', 1, NULL, NULL),
 (7, '6e0808f7cbf3f5c86f3ba45f182936f1', 'a95887cf9d1d011ce83ea30a8cc082d1', NULL, 1, 'commande/CO1904-0003', 'CO1904-0003.pdf', 'commande', 3, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-26 23:13:12', '2019-04-27 04:13:12', 1, NULL, NULL),
 (8, '0df4e6af9c8eb8a7f80e8b9ef330bc43', '8f7588a9b04d92216d1f8d55b3ef2c6e', NULL, 1, 'commande/(PROV5)', '(PROV5).pdf', 'commande', 5, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-26 23:19:11', '2019-04-27 04:19:11', 2, NULL, NULL),
-(9, 'ae134c7825224dce605712a7e4f14852', '84ca5d17432583d915ccc1a1c1f65b43', NULL, 1, 'commande/CO1904-0004', 'CO1904-0004.pdf', 'commande', 5, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-26 23:19:17', '2019-04-27 04:19:17', 2, NULL, NULL),
+(9, 'ae134c7825224dce605712a7e4f14852', '39fbca4fb03a387aa414f502b6ff23b2', NULL, 1, 'commande/CO1904-0004', 'CO1904-0004.pdf', 'commande', 5, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-26 23:19:17', '2019-04-29 19:25:21', 2, 2, NULL),
 (10, 'd6e7ae317f8ad0c44ea7a9e5b2278015', 'eb365887d2b149986c6245d36c550ba1', NULL, 1, 'commande/(PROV6)', '(PROV6).pdf', 'commande', 6, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-26 23:19:55', '2019-04-26 22:44:48', 2, 2, NULL),
 (11, '16696684e659f9d27e4d79a85413fa95', '92899ed6f7c881f0d091f66cf1faba3b', NULL, 1, 'commande/(PROV7)', '(PROV7).pdf', 'commande', 7, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-26 23:20:27', '2019-04-27 04:20:27', 2, NULL, NULL),
 (12, 'cafe9cdcd5cc39738fd40a3955bb63a9', 'ad432440e58a3bc7879d6746320f0736', NULL, 1, 'commande/CO1904-0005', 'CO1904-0005.pdf', 'commande', 7, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-26 23:20:30', '2019-04-26 22:08:26', 2, 1, NULL),
 (13, 'e2cece0d67dd45232d0165cc8a202f20', '0ee0cd4e68735dfd1fdebb5174872872', NULL, 1, 'commande/(PROV8)', '(PROV8).pdf', 'commande', 8, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-26 23:20:45', '2019-04-27 04:20:45', 2, NULL, NULL),
 (14, '9d5868addb860fa71adc8f320e9a29c1', '54602f03086f19c669bf16ca9516adea', NULL, 1, 'commande/CO1904-0006', 'CO1904-0006.pdf', 'commande', 8, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-26 23:20:49', '2019-04-27 04:20:49', 2, NULL, NULL),
 (15, '431c2ed2eaa6a653a2472e1e2b4406e7', 'ff2fd5cf71968119efc4085037d31427', NULL, 1, 'commande/(PROV9)', '(PROV9).pdf', 'commande', 9, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-26 23:41:46', '2019-04-26 21:43:25', 2, 2, NULL),
-(16, '18fede0824817ae0c6fb77d07638b11b', '2e775af10068b14c55e06937be700f02', NULL, 1, 'commande/(PROV10)', '(PROV10).pdf', 'commande', 10, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-29 15:27:51', '2019-04-29 20:27:51', 1, NULL, NULL);
+(16, '18fede0824817ae0c6fb77d07638b11b', '2e775af10068b14c55e06937be700f02', NULL, 1, 'commande/(PROV10)', '(PROV10).pdf', 'commande', 10, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-29 15:27:51', '2019-04-29 20:27:51', 1, NULL, NULL),
+(17, 'fa6ef3278d24d6f380c8919153d435c2', '179c24ac6f841b54a519cb0694f319ff', NULL, 1, 'commande/(PROV11)', '(PROV11).pdf', 'commande', 11, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-29 16:21:33', '2019-04-29 21:21:33', 1, NULL, NULL),
+(18, '7c7d3539bbd6ed2037bb53c3d38f3db2', '3c3c8d54eade44a2fa04c23fa875240d', NULL, 1, 'commande/(PROV12)', '(PROV12).pdf', 'commande', 12, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-29 17:28:47', '2019-04-29 22:28:47', 1, NULL, NULL),
+(19, 'a678589d33ba5580c61f5f4c19b3630f', 'a161c3355e452e1647fd219ded98ebeb', NULL, 1, 'commande/(PROV14)', '(PROV14).pdf', 'commande', 14, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-29 17:45:52', '2019-04-29 22:45:52', 1, NULL, NULL),
+(20, 'ab0d01ade78115eab7c41b82f6c9d1ab', 'a4b21bf0d5504ce99d5347fad0944280', NULL, 1, 'commande/CO1904-0007', 'CO1904-0007.pdf', 'commande', 10, '', '', NULL, NULL, 1, 'generated', NULL, '2019-04-29 17:52:37', '2019-04-29 17:34:57', 1, 2, NULL);
 
 -- --------------------------------------------------------
 
@@ -9608,8 +9623,8 @@ CREATE TABLE `llx_user` (
 --
 
 INSERT INTO `llx_user` (`rowid`, `entity`, `ref_ext`, `ref_int`, `employee`, `fk_establishment`, `datec`, `tms`, `fk_user_creat`, `fk_user_modif`, `login`, `pass_encoding`, `pass`, `pass_crypted`, `pass_temp`, `api_key`, `gender`, `civility`, `lastname`, `firstname`, `address`, `zip`, `town`, `fk_state`, `fk_country`, `birth`, `job`, `office_phone`, `office_fax`, `user_mobile`, `email`, `jabberid`, `skype`, `twitter`, `facebook`, `instagram`, `snapchat`, `googleplus`, `youtube`, `whatsapp`, `signature`, `admin`, `module_comm`, `module_compta`, `fk_soc`, `fk_socpeople`, `fk_member`, `fk_user`, `note_public`, `note`, `model_pdf`, `datelastlogin`, `datepreviouslogin`, `egroupware_id`, `ldap_sid`, `openid`, `statut`, `photo`, `lang`, `color`, `barcode`, `fk_barcode_type`, `accountancy_code`, `nb_holiday`, `thm`, `tjm`, `salary`, `salaryextra`, `dateemployment`, `dateemploymentend`, `weeklyhours`, `import_key`, `default_range`, `default_c_exp_tax_cat`) VALUES
-(1, 0, NULL, NULL, 1, 0, '2019-04-25 22:26:40', '2019-04-25 20:26:40', NULL, NULL, 'jorgefprietol@gmail.com', NULL, NULL, '$2y$10$IgfRRpblWk/pBeJgKc9N4uibcz69G/4nWKylLWppBePrrhBrkGmky', NULL, NULL, '', NULL, 'SuperAdmin', '', '', '', '', NULL, NULL, NULL, '', '', '', '', '', NULL, '', '', '', NULL, NULL, NULL, NULL, NULL, '', 1, 1, 1, NULL, NULL, NULL, NULL, NULL, '', NULL, '2019-04-27 00:46:20', '2019-04-27 00:03:54', NULL, '', NULL, 1, NULL, NULL, '', NULL, 0, '', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(2, 1, NULL, NULL, 0, 0, '2019-04-25 22:54:59', '2019-04-25 20:54:59', NULL, NULL, 'distribuidor@gmail.com', NULL, NULL, '$2y$10$HnklFYThSqUhMfma3ZogY.G65JjrXNGFuloaMKvsFjl4ii8mdCDmm', NULL, 'fsgj5h4x', 'man', NULL, 'Distribuidor', 'Distribuidor', 'frefrefg th tyhyhy', '', '', NULL, 84, NULL, '', '', '', '', '', NULL, '', '', '', NULL, NULL, NULL, NULL, NULL, '', 0, 1, 1, NULL, NULL, NULL, 1, NULL, '', NULL, '2019-04-27 00:03:19', '2019-04-26 23:59:03', NULL, '', NULL, 1, NULL, NULL, '', NULL, 0, '', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+(1, 0, NULL, NULL, 1, 0, '2019-04-25 22:26:40', '2019-04-25 20:26:40', NULL, NULL, 'jorgefprietol@gmail.com', NULL, NULL, '$2y$10$IgfRRpblWk/pBeJgKc9N4uibcz69G/4nWKylLWppBePrrhBrkGmky', NULL, NULL, '', NULL, 'SuperAdmin', '', '', '', '', NULL, NULL, NULL, '', '', '', '', '', NULL, '', '', '', NULL, NULL, NULL, NULL, NULL, '', 1, 1, 1, NULL, NULL, NULL, NULL, NULL, '', NULL, '2019-04-29 17:26:40', '2019-04-29 16:45:04', NULL, '', NULL, 1, NULL, NULL, '', NULL, 0, '', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(2, 1, NULL, NULL, 0, 0, '2019-04-25 22:54:59', '2019-04-25 20:54:59', NULL, NULL, 'distribuidor@gmail.com', NULL, NULL, '$2y$10$HnklFYThSqUhMfma3ZogY.G65JjrXNGFuloaMKvsFjl4ii8mdCDmm', NULL, 'fsgj5h4x', 'man', NULL, 'Distribuidor', 'Distribuidor', 'frefrefg th tyhyhy', '', '', NULL, 84, NULL, '', '', '', '', '', NULL, '', '', '', NULL, NULL, NULL, NULL, NULL, '', 0, 1, 1, NULL, NULL, NULL, 1, NULL, '', NULL, '2019-04-29 17:57:02', '2019-04-27 00:03:19', NULL, '', NULL, 1, NULL, NULL, '', NULL, 0, '', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -12261,13 +12276,13 @@ ALTER TABLE `llx_chargesociales`
 -- AUTO_INCREMENT for table `llx_commande`
 --
 ALTER TABLE `llx_commande`
-  MODIFY `rowid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `rowid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `llx_commandedet`
 --
 ALTER TABLE `llx_commandedet`
-  MODIFY `rowid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `rowid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT for table `llx_commandedet_extrafields`
@@ -12627,7 +12642,7 @@ ALTER TABLE `llx_ecm_directories`
 -- AUTO_INCREMENT for table `llx_ecm_files`
 --
 ALTER TABLE `llx_ecm_files`
-  MODIFY `rowid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `rowid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `llx_element_contact`
