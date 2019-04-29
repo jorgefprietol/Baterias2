@@ -1,0 +1,7 @@
+From: dolibarr-jorgefprietol@gmail.com <dolibarr-jorgefprietol@gmail.com>
+Return-Path: dolibarr-jorgefprietol@gmail.com <dolibarr-jorgefprietol@gmail.com>
+X-Mailer: Dolibarr version 2.7.0-beta (using php mail)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Testé
